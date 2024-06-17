@@ -1,0 +1,6 @@
+title: Your Site Title
+description: A description of your site
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://venkatvk15.github.io" # the base hostname & protocol for your site
+
+theme: minima # specify the Jekyll theme you are using
