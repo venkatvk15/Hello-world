@@ -1,6 +1,29 @@
-title: Your Site Title
-description: A description of your site
-baseurl: "" # the subpath of your site, e.g., /blog
-url: "https://venkatvk15.github.io" # the base hostname & protocol for your site
+title: My Awesome Site
+description: This is my personal website.
+baseurl: "" # leave empty if publishing to https://yourusername.github.io
+url: "https://venkatvk15.github.io" # or your custom domain
 
-theme: minima # specify the Jekyll theme you are using
+# Theme
+theme: minima
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - README.md
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Additional configurations
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
